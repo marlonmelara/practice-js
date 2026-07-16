@@ -1,8 +1,8 @@
 # practice-js
 
-Boilerplate moderno para proyectos web pequeños con HTML, CSS y JavaScript. Estructura BEM, herramientas Rust-fast, y desarrollo local rápido.
+Practice project for Vanilla JavaScript exercises. Modern boilerplate for small web projects with HTML, CSS, and JavaScript. BEM structure, fast Rust-based tools, and quick local development.
 
-## 📁 Estructura de Carpetas
+## 📁 Folder Structure
 
 ```
 practice-js/
@@ -10,33 +10,33 @@ practice-js/
 │   ├── index.html
 │   ├── index.js
 │   └── css/
-│       ├── base.css      (reset, tipografía global)
-│       └── style.css     (componentes específicos)
-└── .vscode/             (configuración del editor)
+│       ├── base.css      (reset, global typography)
+│       └── style.css     (specific components)
+└── .vscode/             (editor configuration)
 ```
 
-## 📦 Dependencias
+## 📦 Dependencies
 
-- **[servor](https://github.com/lukejacksonn/servor)**: Servidor local sin dependencias
-- **[oxlint](https://oxc.rs/) & oxfmt**: Linter y formateador ultra-rápido (Rust)
-- **[stylelint](https://stylelint.io/)**: Linter CSS con BEM y ordenamiento de propiedades
+- **[servor](https://github.com/lukejacksonn/servor)**: Lightweight local server
+- **[oxlint](https://oxc.rs/) & oxfmt**: Ultra-fast linter and formatter (Rust)
+- **[stylelint](https://stylelint.io/)**: CSS linter with BEM and property sorting
 
-## 🚀 Comandos
+## 🚀 Commands
 
-| Comando | Descripción |
+| Command | Description |
 |---------|------------|
-| `pnpm dev` | Inicia servidor local (puerto 1234) |
-| `pnpm lint` | Valida JS y CSS sin cambios |
-| `pnpm lint:all` | Autoformatea JS, CSS y ordena propiedades |
-| `pnpm lint:js:fix` | Autoformatea solo JavaScript |
-| `pnpm lint:css:fix` | Autoformatea solo CSS |
+| `pnpm dev` | Start local server (port 1234) |
+| `pnpm lint` | Validate JS and CSS without changes |
+| `pnpm lint:all` | Auto-format JS, CSS and sort properties |
+| `pnpm lint:js:fix` | Auto-format only JavaScript |
+| `pnpm lint:css:fix` | Auto-format only CSS |
 
-## ⚙️ Configuración
+## ⚙️ Configuration
 
-- **CSS**: Ordenamiento de propiedades por categoría (posición → display → dimensiones → tipografía → efectos)
-- **BEM**: Nomenclatura de clases validada con Stylelint
-- **VS Code**: Auto-formateo al guardar
+- **CSS**: Property sorting by category (position → display → dimensions → typography → effects)
+- **BEM**: Class naming validated with Stylelint
+- **VS Code**: Auto-format on save
 
 ---
 
-**Creado con ❤️ para estudiantes y bootcampers**
+**Created for students and bootcampers to practice Vanilla JavaScript**
