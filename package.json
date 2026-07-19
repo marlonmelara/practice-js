@@ -15,6 +15,7 @@
     "lint:all": "pnpm lint:js:fix && pnpm lint:css:fix && pnpm format"
   },
   "devDependencies": {
+    "@oxlint/binding-linux-x64-gnu": "^1.74.0",
     "oxfmt": "^0.55.0",
     "oxlint": "^1.70.0",
     "servor": "^4.0.2",
