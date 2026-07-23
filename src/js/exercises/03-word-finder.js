@@ -19,15 +19,14 @@ const wordFinder = (phrase, word) => {
   const words = normalizedPhrase.split(" ");
 
   // Creamos un array con la palabra objetivo y contamos
-  const matchCount = words.filter(element => element === normalizedWord).length;
+  const matchCount = words.filter((element) => element === normalizedWord).length;
 
   return matchCount;
-}
+};
 
-const result = wordFinder("Hola Mundo mundo mundo mundoloco world world!", "world")
+const result = wordFinder("Hola Mundo mundo mundo mundoloco world world!", "world");
 
 console.log(`Número de veces que aparece la palabra: ${result}`);
-
 
 // Solución 2:
 
@@ -38,7 +37,7 @@ console.log(`Número de veces que aparece la palabra: ${result}`);
 //   const normalizedPhrase = normalizeString(phrase);
 //   const normalizedWord = normalizeString(word);
 
-  // Method chaining: Dividimos, filtramos y contamos en un solo flujo continuo
+// Method chaining: Dividimos, filtramos y contamos en un solo flujo continuo
 //   const matchCount = normalizedPhrase
 //     .split(" ")
 //     .filter(currentWord => currentWord === normalizedWord)

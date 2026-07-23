@@ -1,5 +1,26 @@
 /* stylelint-disable selector-class-pattern */
 
+:root {
+  --font-scale: 1;
+  --bg: #0f0f1e;
+  --bg-card: #18181b;
+  --border: #27272a;
+  --text: #e4e4e7;
+  --text-muted: #a1a1aa;
+  --text-heading: #fafafa;
+  --accent: #60a5fa;
+}
+
+[data-theme="light"] {
+  --bg: #f0f0f0;
+  --bg-card: #fff;
+  --border: #d4d4d8;
+  --text: #27272a;
+  --text-muted: #52525b;
+  --text-heading: #18181b;
+  --accent: #2563eb;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +28,15 @@
 }
 
 html {
+  font-size: calc(1rem * var(--font-scale));
   scroll-behavior: smooth;
 }
 
 body {
   min-height: 100vh;
   font-family: -apple-system, blinkmacsystemfont, "Segoe UI", roboto, sans-serif;
-  color: #e4e4e7;
-  background-color: #0f0f1e;
+  color: var(--text);
+  background-color: var(--bg);
 }
 
 h1,
