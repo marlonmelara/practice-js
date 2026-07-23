@@ -9,7 +9,7 @@ exercises.forEach((exercise) => {
   card.href = `exercise.html?id=${exercise.id}`;
 
   card.innerHTML = `
-    <h2 class="card__title">${exercise.title}</h2>
+    <h2 class="card__title">${exercise.id} ${exercise.title}</h2>
     <p class="card__description">${exercise.descriptionEn}</p>
   `;
 
