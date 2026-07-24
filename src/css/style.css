@@ -123,17 +123,18 @@
 
 /* Code block */
 
+.exercise__pre {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
 .exercise__code {
   display: block;
-  margin-top: 1rem;
   padding: 1.25rem;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   font-size: 0.8125rem;
   line-height: 1.6;
   white-space: pre;
-  color: #e4e4e7;
-  border-radius: 0.5rem;
-  background-color: #18181b;
   overflow-x: auto;
 }
 

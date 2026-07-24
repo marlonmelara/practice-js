@@ -26,6 +26,7 @@ function applyFontSize(size) {
 function toggleTheme() {
   const current = getTheme();
   applyTheme(current === "dark" ? "light" : "dark");
+  syncPrismTheme(document.documentElement.getAttribute("data-theme"));
 }
 
 function increaseFontSize() {
@@ -38,6 +39,11 @@ function decreaseFontSize() {
   const current = getFontSize();
   const next = Math.max(current - FONT_SIZE_STEP, FONT_SIZE_MIN);
   applyFontSize(next);
+}
+
+function syncPrismTheme(theme) {
+  const lightLink = document.getElementById("prism-theme-light");
+  if (lightLink) lightLink.disabled = theme === "dark";
 }
 
 function renderControls() {
@@ -64,4 +70,5 @@ function renderControls() {
 
 applyTheme(getTheme());
 applyFontSize(getFontSize());
+syncPrismTheme(getTheme());
 renderControls();

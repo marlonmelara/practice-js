@@ -26,6 +26,7 @@ if (!id) {
       .then((res) => res.text())
       .then((text) => {
         codeEl.textContent = text;
+        Prism.highlightElement(codeEl);
       });
   }
 }
