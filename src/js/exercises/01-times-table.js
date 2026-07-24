@@ -4,7 +4,6 @@
  */
 
 // Solución 1:
-
 const generateTables = (number) => {
   console.log(`Tabla del ${number}`);
   for (let i = 1; i <= 10; i++) {
@@ -14,8 +13,7 @@ const generateTables = (number) => {
 
 generateTables(2);
 
-// Solución 2 (Responsabilidad única)
-
+// Solución 2 (Responsabilidad única):
 const getMultiplicationTable = (n) => {
   const result = [];
   for (let i = 1; i <= 10; i++) {

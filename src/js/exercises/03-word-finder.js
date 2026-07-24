@@ -5,7 +5,6 @@
  */
 
 // Solución 1:
-
 const normalizeString = (text) => {
   return text.toLowerCase().replace(/[.,!?]/g, "");
 };

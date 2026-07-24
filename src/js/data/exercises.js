@@ -11,13 +11,14 @@ export const exercises = [
   },
   {
     id: "02",
-    title: "Palindrome",
-    descriptionEn: "Given a text string, check whether it is a palindrome or not.",
+    title: "Reverse Characters",
+    descriptionEn:
+      "Given a text string, reverse the order of its characters without using built-in language methods.",
     statementEn:
-      "Given a text string, write a function that checks whether it is a palindrome or not. A palindrome is a word, phrase, or sequence that reads the same backward as forward, ignoring spaces and capitalization. The function should accept a single string as a parameter and return a boolean value.",
+      "Given a text string, write a function that reverses the order of its characters without using built-in language methods, using only control structures (loops and conditionals). The function should accept a single string as a parameter and return the reversed string.",
     statementEs:
-      "Dada una cadena de texto, escribe una función que compruebe si es palíndromo o no. Un palíndromo es una palabra, frase o secuencia que se lee igual de izquierda a derecha que de derecha a izquierda, ignorando espacios y mayúsculas. La función debe aceptar una sola cadena como parámetro y devolver un valor booleano.",
-    file: "js/exercises/02-palindrome.js",
+      "Dada una cadena de texto, escribe una función que invierta el orden de sus caracteres sin usar métodos propios del lenguaje, utilizando solo estructuras de control (ciclos y condicionales). La función debe aceptar una sola cadena como parámetro y devolver la cadena invertida.",
+    file: "js/exercises/02-reverse-characters.js",
   },
   {
     id: "03",
@@ -32,13 +33,12 @@ export const exercises = [
   },
   {
     id: "04",
-    title: "Reverse Characters",
-    descriptionEn:
-      "Given a text string, reverse the order of its characters without using built-in language methods.",
+    title: "Palindrome",
+    descriptionEn: "Given a text string, check whether it is a palindrome or not.",
     statementEn:
-      "Given a text string, write a function that reverses the order of its characters without using built-in language methods, using only control structures (loops and conditionals). The function should accept a single string as a parameter and return the reversed string.",
+      "Given a text string, write a function that checks whether it is a palindrome or not. A palindrome is a word, phrase, or sequence that reads the same backward as forward, ignoring spaces and capitalization. The function should accept a single string as a parameter and return a boolean value.",
     statementEs:
-      "Dada una cadena de texto, escribe una función que invierta el orden de sus caracteres sin usar métodos propios del lenguaje, utilizando solo estructuras de control (ciclos y condicionales). La función debe aceptar una sola cadena como parámetro y devolver la cadena invertida.",
-    file: "js/exercises/04-reverse-characters.js",
+      "Dada una cadena de texto, escribe una función que compruebe si es palíndromo o no. Un palíndromo es una palabra, frase o secuencia que se lee igual de izquierda a derecha que de derecha a izquierda, ignorando espacios y mayúsculas. La función debe aceptar una sola cadena como parámetro y devolver un valor booleano.",
+    file: "js/exercises/04-palindrome.js",
   },
 ];
