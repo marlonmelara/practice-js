@@ -41,4 +41,12 @@ export const exercises = [
       "Dada una cadena de texto, escribe una función que compruebe si es palíndromo o no. Un palíndromo es una palabra, frase o secuencia que se lee igual de izquierda a derecha que de derecha a izquierda, ignorando espacios y mayúsculas. La función debe aceptar una sola cadena como parámetro y devolver un valor booleano.",
     file: "js/exercises/04-palindrome.js",
   },
+  {
+    id: "05",
+    title: "Percentage of a number",
+    descriptionEn: "Given two integers (a number and a percentage), calculate the percentage.",
+    statementEn: "Given two integers (a number and a percentage), calculate the percentage.",
+    statementEs: "Dados dos enteros (un número y un porcentaje), calcular la porción porcentual.",
+    file: "js/exercises/05-calculate-percentage.js",
+  },
 ];

@@ -53,6 +53,11 @@
   color: var(--text-heading);
 }
 
+.card__id {
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
 .card__description {
   font-size: 0.875rem;
   line-height: 1.5;
